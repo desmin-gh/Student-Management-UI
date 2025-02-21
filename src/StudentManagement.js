@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "../src/components/ui/dialog";
 
-const API_URL = "http://localhost:8080/api/students";
+const API_URL = "https://student-management-application-production.up.railway.app/api/students";
 
 const StudentManagement = () => {
   const [students, setStudents] = useState([]);
